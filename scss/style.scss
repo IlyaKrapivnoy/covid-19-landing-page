@@ -326,7 +326,11 @@ header {
     align-items: center;
 
     padding-bottom: 50px;
-    
+
+    background-image: url(../images/decor.png);
+    background-repeat: no-repeat;
+    background-position: 34px 90px;
+
     .symptomps-pic {
         display: flex;
         justify-content: center;
@@ -337,5 +341,12 @@ header {
     }
 }
 
+.what-should-we-do {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 50px;
+}
 
 @import "_media";
