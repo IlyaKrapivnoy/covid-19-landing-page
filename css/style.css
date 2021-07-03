@@ -31,6 +31,17 @@
   background-color: #e4b4b2;
 }
 
+.btn-pink {
+  background-color: #e4b4b2;
+  color: #FA5652;
+  -webkit-transition: color 500ms ease-in-out;
+  transition: color 500ms ease-in-out;
+}
+
+.btn-pink:hover {
+  color: #fff;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -230,6 +241,10 @@ header .header-inner .header-right .header-right-menu .header-right-btn {
 
 .post .post-right .post-img img {
   max-width: 850px;
+}
+
+.post .post-right .post-img .what-is-img {
+  max-width: 500px;
 }
 
 @media (max-width: 880px) {

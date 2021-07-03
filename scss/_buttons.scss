@@ -35,3 +35,14 @@
         background-color: $pink;
     }
 }
+
+.btn-pink {
+    background-color: $pink;
+    color: $brand-red;
+
+    transition: color 500ms ease-in-out;
+
+    &:hover {
+        color: $white;
+    }
+}
