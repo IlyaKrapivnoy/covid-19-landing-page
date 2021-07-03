@@ -1,8 +1,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&display=swap');
 
 @import "_variables";
+@import "_buttons";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: $black;
+    text-decoration: none;
+}
 
 body {
-    background: #E5E5E5;
+    background: #e7dddd;
+
     font-family: $font-faminy;
+    color: $black;
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+    overflow-x: hidden;
+
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+
+    padding: 0 30px;
+}
+
+header {
+    padding: 20px 0;
+
+    .header-inner {
+        display: flex;
+        justify-content: space-between;
+
+        .header-left {
+
+            .header-left-logo {
+
+                .logo {
+                    position: relative;
+
+                    a::after {
+                        content: 'Covid - 19';
+
+                        position: absolute;
+                        top: 28%;
+                        left: 120%;
+                        
+                        width: 90px;
+
+                        font-weight: 700;
+                        text-transform: uppercase;
+
+                    }
+                }
+            }
+        }
+
+        .header-right {
+
+            .header-right-menu {
+                display: flex;
+                align-items: center;
+
+                line-height: 66px;
+
+                ul {
+                    display: flex;
+
+                    li {
+                        list-style: none;
+                        padding-right: 30px;
+
+                        &:last-child {
+                            padding-right: 0;
+                        }
+                    }
+                }
+
+                .header-right-btn {
+                    padding-left: 50px;
+                }
+            }
+        }
+    }
 }

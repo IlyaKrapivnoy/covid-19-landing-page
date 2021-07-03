@@ -1,0 +1,37 @@
+.btn {
+    background-color: $brand-red;
+
+    color: $white;
+    font-size: 18px;
+
+    padding: 15px 40px;
+
+    outline: none;
+    border: none;
+    border-radius: 40px;
+
+    cursor: pointer;
+
+    transition: background-color 500ms ease-in-out;
+
+    &:hover {
+        background-color: ($brand-red - 20%);
+    }
+
+}
+
+.btn-outlined {
+    background-color: transparent;
+    border: 2px solid $brand-red;
+
+    color: $brand-red;
+    font-size: 16px;
+
+    padding: 8px 32px;
+
+    transition: background-color 500ms ease-in-out;
+
+    &:hover {
+        background-color: $pink;
+    }
+}
