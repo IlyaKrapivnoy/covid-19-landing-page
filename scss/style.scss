@@ -78,16 +78,29 @@ header {
 
                     li {
                         list-style: none;
-                        padding-right: 30px;
+                        padding: 0 15px;
 
-                        &:last-child {
-                            padding-right: 0;
+                        position: relative;
+
+                            &:hover::before {
+                                content: '•';
+
+                                position: absolute;
+                                top: 20px;
+                                left: 49%;
+
+                                color: $brand-red;
+                            }
+
+                        a {
+                            color: $title-color;
+                            font-weight: 500;
                         }
                     }
                 }
 
                 .header-right-btn {
-                    padding-left: 50px;
+                    padding-left: 40px;
                 }
             }
         }
@@ -150,6 +163,13 @@ header {
         text-transform: uppercase;
 
         z-index: 10;
+
+        position: relative;
+
+        &:focus,
+        &:hover {
+            color: $pink;
+        }
     }
 }
 
