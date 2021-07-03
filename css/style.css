@@ -275,7 +275,10 @@ header .header-inner .header-right .header-right-menu .header-right-btn {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 30px 0;
+  padding: 50px 0;
+  background-image: url(../images/bg-virus-2.png);
+  background-repeat: no-repeat;
+  background-position: 10px 53px;
 }
 
 .card-block .cards {
@@ -305,6 +308,26 @@ header .header-inner .header-right .header-right-menu .header-right-btn {
   background: #f5eded;
   -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
           box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: opacity 500ms ease-in-out;
+  transition: opacity 500ms ease-in-out;
+}
+
+.card-block .cards .card:hover {
+  opacity: .8;
+}
+
+.card-block .cards .card:hover::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #FA5652;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .card-block .cards .card .card-img {
