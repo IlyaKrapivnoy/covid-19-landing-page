@@ -177,6 +177,8 @@ header {
     display: flex;
     justify-content: space-between;
 
+    padding: 30px 0;
+
     .post-left {
         display: flex;
         flex-direction: column;
@@ -187,26 +189,7 @@ header {
         max-width: 600px;
         width: 100%;
 
-        .post-upper-title p {
-            font-size: 20px;
-            color: $brand-red;
-            font-weight: 800;
-            padding-bottom: 15px;
-        }
-
-        .post-title h2 {
-            font-size: 48px;
-            line-height: 58px;
-            letter-spacing: 1px;
-            padding-bottom: 30px;
-        }
-
-        .post-description p {
-            font-size: 16px;
-            color: $black;
-            line-height: 32px;
-            padding-bottom: 25px;
-        }
+       
     }
     
     .post-right {
@@ -224,8 +207,88 @@ header {
     }
 }
 
+.post-upper-title p {
+    font-size: 20px;
+    color: $brand-red;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
 
+.post-title h2 {
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
 
+    color: $title-color;
+}
+
+.post-description p {
+    font-size: 16px;
+    color: $black;
+    line-height: 32px;
+    padding-bottom: 25px;
+}
+
+.post-bg-virus {
+    background-image: url(../images/bg-virus.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.block-text {
+    padding-bottom: 40px;
+}
+
+.short-description {
+    max-width: 600px;
+    text-align: center;
+}
+
+.card-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 30px 0;
+
+    .cards {
+        display: flex;
+        justify-content: space-between;
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            width: 29%;
+            padding: 40px 10px;
+
+            border-radius: 5px;
+
+            background: rgb(245, 237, 237);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+            .card-img {
+                padding-bottom: 40px;
+            }
+
+            .card-title {
+                padding-bottom: 20px;
+
+                h3 {
+                    color: $title-color;
+                    text-transform: uppercase;
+                }
+            }
+
+            .card-description {
+                color: $black;
+            }
+        }
+    }
+}
 
 
 

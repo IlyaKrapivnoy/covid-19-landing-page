@@ -199,6 +199,7 @@ header .header-inner .header-right .header-right-menu .header-right-btn {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 30px 0;
 }
 
 .post .post-left {
@@ -218,33 +219,109 @@ header .header-inner .header-right .header-right-menu .header-right-btn {
   width: 100%;
 }
 
-.post .post-left .post-upper-title p {
-  font-size: 20px;
-  color: #FA5652;
-  font-weight: 800;
-  padding-bottom: 15px;
-}
-
-.post .post-left .post-title h2 {
-  font-size: 48px;
-  line-height: 58px;
-  letter-spacing: 1px;
-  padding-bottom: 30px;
-}
-
-.post .post-left .post-description p {
-  font-size: 16px;
-  color: #4B4F51;
-  line-height: 32px;
-  padding-bottom: 25px;
-}
-
 .post .post-right .post-img img {
   max-width: 850px;
 }
 
 .post .post-right .post-img .what-is-img {
   max-width: 500px;
+}
+
+.post-upper-title p {
+  font-size: 20px;
+  color: #FA5652;
+  font-weight: 800;
+  padding-bottom: 15px;
+}
+
+.post-title h2 {
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: 1px;
+  padding-bottom: 30px;
+  color: #035755;
+}
+
+.post-description p {
+  font-size: 16px;
+  color: #4B4F51;
+  line-height: 32px;
+  padding-bottom: 25px;
+}
+
+.post-bg-virus {
+  background-image: url(../images/bg-virus.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.block-text {
+  padding-bottom: 40px;
+}
+
+.short-description {
+  max-width: 600px;
+  text-align: center;
+}
+
+.card-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 0;
+}
+
+.card-block .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card-block .cards .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 29%;
+  padding: 40px 10px;
+  border-radius: 5px;
+  background: #f5eded;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.card-block .cards .card .card-img {
+  padding-bottom: 40px;
+}
+
+.card-block .cards .card .card-title {
+  padding-bottom: 20px;
+}
+
+.card-block .cards .card .card-title h3 {
+  color: #035755;
+  text-transform: uppercase;
+}
+
+.card-block .cards .card .card-description {
+  color: #4B4F51;
 }
 
 @media (max-width: 880px) {
