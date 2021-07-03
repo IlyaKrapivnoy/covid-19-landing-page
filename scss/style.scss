@@ -3,6 +3,7 @@
 @import "_variables";
 @import "_buttons";
 
+
 * {
     margin: 0;
     padding: 0;
@@ -92,3 +93,64 @@ header {
         }
     }
 }
+
+.burger-menu {
+    display: none;
+
+    #burger{
+        position: fixed;
+        right: 0;
+        top: 0;
+
+        color: $white;
+        background: linear-gradient(45deg, #9682C8 10%, #FA5652);;
+        
+        font-size: 32px;
+        padding: 16px 16px 32px 32px;
+
+        border-radius: 0% 0% 0% 100%;
+        transition: 1s;
+
+        cursor: pointer;
+    }
+
+    #quit{
+        position: fixed;
+        top: 0;
+
+        color: $white;
+
+        font-size: 32px;
+
+        padding: 16px;
+
+        display: none;
+        cursor: pointer;
+    }
+
+    #links{
+        display: none;
+
+        flex-direction: column;
+        justify-content: space-around;
+
+        width: 100vw;
+        height: 25vh;
+        padding: 25vh 0;
+    }
+
+    #links a{
+        text-align: center;
+        text-decoration: none;
+
+        color: $white;
+        font-size: 1.5rem;
+        letter-spacing: 3px;
+        font-family: $font-faminy;
+        text-transform: uppercase;
+
+        z-index: 10;
+    }
+}
+
+@import "_media";
