@@ -220,7 +220,7 @@ header .header-inner .header-right .header-right-menu .header-right-btn {
 }
 
 .post .post-right .post-img img {
-  max-width: 850px;
+  max-width: 640px;
 }
 
 .post .post-right .post-img .what-is-img {
@@ -345,6 +345,33 @@ header .header-inner .header-right .header-right-menu .header-right-btn {
 
 .card-block .cards .card .card-description {
   color: #4B4F51;
+}
+
+.symptomps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 50px;
+}
+
+.symptomps .symptomps-pic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.symptomps .symptomps-pic img {
+  max-width: 900px;
 }
 
 @media (max-width: 880px) {
