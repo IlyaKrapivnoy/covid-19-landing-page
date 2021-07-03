@@ -181,6 +181,57 @@ header .header-inner .header-right .header-right-menu .header-right-btn {
   color: #e4b4b2;
 }
 
+.post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.post .post-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  max-width: 600px;
+  width: 100%;
+}
+
+.post .post-left .post-upper-title p {
+  font-size: 20px;
+  color: #FA5652;
+  font-weight: 800;
+  padding-bottom: 15px;
+}
+
+.post .post-left .post-title h2 {
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: 1px;
+  padding-bottom: 30px;
+}
+
+.post .post-left .post-description p {
+  font-size: 16px;
+  color: #4B4F51;
+  line-height: 32px;
+  padding-bottom: 25px;
+}
+
+.post .post-right .post-img img {
+  max-width: 850px;
+}
+
 @media (max-width: 880px) {
   .header-right {
     display: none;

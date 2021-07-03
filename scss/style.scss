@@ -173,4 +173,58 @@ header {
     }
 }
 
+.post {
+    display: flex;
+    justify-content: space-between;
+
+    .post-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        flex-shrink: 0;
+
+        max-width: 600px;
+        width: 100%;
+
+        .post-upper-title p {
+            font-size: 20px;
+            color: $brand-red;
+            font-weight: 800;
+            padding-bottom: 15px;
+        }
+
+        .post-title h2 {
+            font-size: 48px;
+            line-height: 58px;
+            letter-spacing: 1px;
+            padding-bottom: 30px;
+        }
+
+        .post-description p {
+            font-size: 16px;
+            color: $black;
+            line-height: 32px;
+            padding-bottom: 25px;
+        }
+    }
+    
+
+    .post-right {
+
+        .post-img {
+
+            img {
+                max-width: 850px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
 @import "_media";
