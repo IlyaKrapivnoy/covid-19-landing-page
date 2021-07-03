@@ -41,30 +41,6 @@ header {
         display: flex;
         justify-content: space-between;
 
-        .header-left {
-
-            .header-left-logo {
-
-                .logo {
-                    position: relative;
-
-                    a::after {
-                        content: 'Covid - 19';
-
-                        position: absolute;
-                        top: 28%;
-                        left: 120%;
-                        
-                        width: 90px;
-
-                        font-weight: 700;
-                        text-transform: uppercase;
-
-                    }
-                }
-            }
-        }
-
         .header-right {
 
             .header-right-menu {
@@ -104,6 +80,24 @@ header {
                 }
             }
         }
+    }
+}
+
+.logo {
+    position: relative;
+
+    a::after {
+        content: 'Covid - 19';
+
+        position: absolute;
+        top: 28%;
+        left: 120%;
+        
+        width: 90px;
+
+        font-weight: 700;
+        text-transform: uppercase;
+
     }
 }
 
@@ -387,5 +381,36 @@ header {
         }
     }
 }
+
+.footer-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .footer-top {
+        margin-right: 90px;
+    }
+
+    .footer-right-menu ul {
+        display: flex;
+
+        li {
+            list-style: none;
+            padding: 10px 15px;
+            font-size: 14px;
+            color: $title-color;
+        }
+    }
+
+    .footer-bottom {
+        padding-bottom: 30px;
+        
+        p {
+            font-size: 14px;
+            color: rgb(68, 68, 68);
+        }
+    }
+}
+
 
 @import "_media";
