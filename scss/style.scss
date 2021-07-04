@@ -201,6 +201,12 @@ header {
     }
 }
 
+.post-left.padding-left {
+    padding: 0 40px 0 80px;
+    max-width: 500px;
+}
+
+
 .post-upper-title p {
     font-size: 20px;
     color: $brand-red;
@@ -215,7 +221,57 @@ header {
     padding-bottom: 30px;
 
     color: $title-color;
+
 }
+
+.post-title-light {
+    position: relative;
+
+    h2 {
+        font-weight: 500;
+        text-transform: capitalize;
+
+        &.before-number {
+            &::before {
+                content: '';
+
+                position: absolute;
+                top: 4px;
+                left: -69px;
+
+                width: 50px;
+                height: 50px;
+                background: $pink;
+
+                border-radius: 50%;
+                text-align: center;
+                
+                font-size: 36px;
+                line-height: 52px;
+            }
+        }
+
+        &.first {
+            &::before {
+                content: '1';
+
+            }
+        }
+        &.second {
+            &::before {
+                content: '2';
+
+            }
+        }
+        &.third {
+            &::before {
+                content: '3';
+
+            }
+        }
+    }
+}
+
 
 .post-description p {
     font-size: 16px;
