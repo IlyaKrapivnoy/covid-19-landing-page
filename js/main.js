@@ -2,7 +2,7 @@ function burger(){
     var burger = document.getElementById('burger');
     var links = document.getElementById('links');
     var quit = document.getElementById('quit');
-    burger.style.padding = '16px 16px 200vw 200vw';
+    burger.style.padding = '16px 16px 200vw 300vw';
     links.style.display = 'flex';
     quit.style.display = 'inline';
   }

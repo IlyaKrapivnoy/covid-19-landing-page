@@ -151,6 +151,7 @@ header .header-inner .header-right .header-right-menu .header-right-btn {
   -webkit-transition: 1s;
   transition: 1s;
   cursor: pointer;
+  z-index: 10;
 }
 
 .burger-menu #quit {
@@ -161,6 +162,7 @@ header .header-inner .header-right .header-right-menu .header-right-btn {
   padding: 16px;
   display: none;
   cursor: pointer;
+  z-index: 11;
 }
 
 .burger-menu #links {

@@ -119,6 +119,8 @@ header {
         transition: 1s;
 
         cursor: pointer;
+
+        z-index: 10;
     }
 
     #quit{
@@ -133,6 +135,8 @@ header {
 
         display: none;
         cursor: pointer;
+
+        z-index: 11;
     }
 
     #links{
