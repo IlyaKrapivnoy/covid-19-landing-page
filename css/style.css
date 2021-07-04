@@ -471,7 +471,7 @@ header .header-inner .header-right .header-right-menu .header-right-btn {
 .question .question-input input {
   outline: none;
   padding: 30px;
-  border: navajowhite;
+  border: none;
   border-radius: 40px;
   width: 460px;
   color: #4B4F51;

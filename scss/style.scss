@@ -186,8 +186,6 @@ header {
 
         max-width: 600px;
         width: 100%;
-
-       
     }
     
     .post-right {
@@ -215,6 +213,7 @@ header {
     font-size: 20px;
     color: $brand-red;
     font-weight: 800;
+
     padding-bottom: 15px;
 }
 
@@ -222,6 +221,7 @@ header {
     font-size: 48px;
     line-height: 58px;
     letter-spacing: 1px;
+
     padding-bottom: 30px;
 
     color: $title-color;
@@ -281,6 +281,7 @@ header {
     font-size: 16px;
     color: $black;
     line-height: 32px;
+
     padding-bottom: 25px;
 }
 
@@ -407,6 +408,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+
     padding: 40px 0 80px;
 
     background-image: url(../images/bg-virus-3.png);
@@ -433,7 +435,8 @@ header {
         input {
             outline: none;
             padding: 30px;
-            border: navajowhite;
+
+            border: none;
             border-radius: 40px;
             width: 460px;
             color: $black;
@@ -465,6 +468,7 @@ header {
         li {
             list-style: none;
             padding: 10px 15px;
+
             font-size: 14px;
             color: $title-color;
 
@@ -491,6 +495,5 @@ header {
         }
     }
 }
-
 
 @import "_media";
