@@ -534,6 +534,33 @@ header .header-inner .header-right .header-right-menu .header-right-btn {
   color: #444444;
 }
 
+@media (max-width: 1260px) {
+  .post .post-right .post-img img {
+    max-width: 440px;
+  }
+}
+
+@media (max-width: 1140px) {
+  .post {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .post.column-reverse {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .post .post-left {
+    padding-bottom: 30px;
+  }
+}
+
 @media (max-width: 880px) {
   .header-right {
     display: none;
