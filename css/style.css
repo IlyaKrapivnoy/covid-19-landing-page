@@ -442,7 +442,7 @@ header .header-inner .header-right .header-right-menu .header-right-btn {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 40px 0;
+  padding: 40px 0 80px;
   background-image: url(../images/bg-virus-3.png);
   background-repeat: no-repeat;
   background-position: right;
@@ -504,6 +504,7 @@ header .header-inner .header-right .header-right-menu .header-right-btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-bottom: 10px;
 }
 
 .footer-inner .footer-right-menu ul li {
@@ -511,6 +512,15 @@ header .header-inner .header-right .header-right-menu .header-right-btn {
   padding: 10px 15px;
   font-size: 14px;
   color: #035755;
+  position: relative;
+}
+
+.footer-inner .footer-right-menu ul li:hover::before {
+  content: '•';
+  position: absolute;
+  top: 25px;
+  left: 49%;
+  color: #FA5652;
 }
 
 .footer-inner .footer-bottom {

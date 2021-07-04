@@ -403,7 +403,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 0;
+    padding: 40px 0 80px;
 
     background-image: url(../images/bg-virus-3.png);
     background-repeat: no-repeat;
@@ -456,11 +456,25 @@ header {
     .footer-right-menu ul {
         display: flex;
 
+        padding-bottom: 10px;
+
         li {
             list-style: none;
             padding: 10px 15px;
             font-size: 14px;
             color: $title-color;
+
+            position: relative;
+
+            &:hover::before {
+                content: '•';
+
+                position: absolute;
+                top: 25px;
+                left: 49%;
+
+                color: $brand-red;
+            }
         }
     }
 
