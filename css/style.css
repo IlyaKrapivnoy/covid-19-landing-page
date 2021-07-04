@@ -636,4 +636,10 @@ header .header-inner .header-right .header-right-menu .header-right-btn {
   .post .post-right .post-img img {
     max-width: 240px;
   }
+  .post-title h2 {
+    font-size: 30px;
+  }
+  .post-left.padding-left {
+    padding: 0 40px;
+  }
 }
