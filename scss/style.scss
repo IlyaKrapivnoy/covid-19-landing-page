@@ -405,6 +405,11 @@ header {
     align-items: center;
     padding: 40px 0;
 
+    background-image: url(../images/bg-virus-3.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 140px;
+
     .question-title {
         padding-bottom: 40px;
         
@@ -429,6 +434,7 @@ header {
             width: 460px;
             color: $black;
 
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
         }
         button {
             position: absolute;

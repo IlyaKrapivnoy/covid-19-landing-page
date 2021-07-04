@@ -443,6 +443,10 @@ header .header-inner .header-right .header-right-menu .header-right-btn {
       -ms-flex-align: center;
           align-items: center;
   padding: 40px 0;
+  background-image: url(../images/bg-virus-3.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 140px;
 }
 
 .question .question-title {
@@ -469,6 +473,8 @@ header .header-inner .header-right .header-right-menu .header-right-btn {
   border-radius: 40px;
   width: 460px;
   color: #4B4F51;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .question .question-input button {
